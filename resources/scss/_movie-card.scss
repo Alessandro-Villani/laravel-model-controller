@@ -1,0 +1,28 @@
+.movie-card.card{
+    background-color: transparent;
+    border-color: white;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all 0.5s;
+    box-shadow: 0 0 20px transparent;
+
+    &:hover{
+        transform: translateY(-10px);
+        box-shadow: 0 0 20px red;
+    }
+
+}
+
+
+.flag{
+    width: 30px;
+}
+
+.fa-star{
+    color: gold;
+}
+
+.movies-pic{
+    height: 500px;
+    align-self: center;
+}
