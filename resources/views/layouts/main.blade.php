@@ -12,6 +12,7 @@
 <body>
     @include('includes.header')
 
+    @yield('main-content')
 
     @yield('scripts')
 </body>
